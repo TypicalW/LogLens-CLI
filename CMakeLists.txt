@@ -12,15 +12,18 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(loglens
     src/main.cpp
+    src/log_parser.cpp
 )
-target_include_directories(loglens PRIVATE 
-    ${CMAKE_CURRENT_SOURCE_DIR}/include    
+
+target_include_directories(loglens PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 enable_testing()
 
 add_executable(loglens_tests
     tests/test_smoke.cpp
+    src/log_parser.cpp
 )
 
 target_include_directories(loglens_tests PRIVATE

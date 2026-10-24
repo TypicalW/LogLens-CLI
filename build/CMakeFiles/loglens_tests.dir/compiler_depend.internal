@@ -4,6 +4,9 @@
 CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o
  /home/typicalw/Code/LogLens/tests/test_smoke.cpp
  /home/typicalw/Code/LogLens/include/log_entry.hpp
+ /home/typicalw/Code/LogLens/include/log_parser.hpp
+ /home/typicalw/Code/LogLens/include/parse_error.hpp
+ /home/typicalw/Code/LogLens/include/parse_result.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -18,6 +21,7 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o
  /usr/include/c++/15/bits/concept_check.h
  /usr/include/c++/15/bits/cpp_type_traits.h
  /usr/include/c++/15/bits/cxxabi_forced.h
+ /usr/include/c++/15/bits/enable_special_members.h
  /usr/include/c++/15/bits/exception.h
  /usr/include/c++/15/bits/exception_defines.h
  /usr/include/c++/15/bits/functexcept.h
@@ -27,9 +31,11 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o
  /usr/include/c++/15/bits/localefwd.h
  /usr/include/c++/15/bits/memory_resource.h
  /usr/include/c++/15/bits/memoryfwd.h
+ /usr/include/c++/15/bits/monostate.h
  /usr/include/c++/15/bits/move.h
  /usr/include/c++/15/bits/new_allocator.h
  /usr/include/c++/15/bits/ostream_insert.h
+ /usr/include/c++/15/bits/parse_numbers.h
  /usr/include/c++/15/bits/postypes.h
  /usr/include/c++/15/bits/predefined_ops.h
  /usr/include/c++/15/bits/ptr_traits.h
@@ -44,6 +50,7 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o
  /usr/include/c++/15/bits/stl_iterator_base_funcs.h
  /usr/include/c++/15/bits/stl_iterator_base_types.h
  /usr/include/c++/15/bits/stl_pair.h
+ /usr/include/c++/15/bits/stl_relops.h
  /usr/include/c++/15/bits/string_view.tcc
  /usr/include/c++/15/bits/stringfwd.h
  /usr/include/c++/15/bits/uses_allocator.h
@@ -60,6 +67,7 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o
  /usr/include/c++/15/cwchar
  /usr/include/c++/15/debug/assertions.h
  /usr/include/c++/15/debug/debug.h
+ /usr/include/c++/15/ext/aligned_buffer.h
  /usr/include/c++/15/ext/alloc_traits.h
  /usr/include/c++/15/ext/numeric_traits.h
  /usr/include/c++/15/ext/string_conversions.h
@@ -72,6 +80,8 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o
  /usr/include/c++/15/string_view
  /usr/include/c++/15/tuple
  /usr/include/c++/15/type_traits
+ /usr/include/c++/15/utility
+ /usr/include/c++/15/variant
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h

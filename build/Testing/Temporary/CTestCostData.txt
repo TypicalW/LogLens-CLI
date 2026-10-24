@@ -1,2 +1,2 @@
-LogLensSmokeTest 3 0.00167193
+LogLensSmokeTest 4 0.00138839
 ---

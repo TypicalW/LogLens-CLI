@@ -1,6 +1,8 @@
 CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: \
  /home/typicalw/Code/LogLens/tests/test_smoke.cpp \
  /usr/include/stdc-predef.h \
+ /home/typicalw/Code/LogLens/include/log_parser.hpp \
+ /home/typicalw/Code/LogLens/include/parse_result.hpp \
  /home/typicalw/Code/LogLens/include/log_entry.hpp \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
@@ -118,4 +120,10 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: \
  /usr/include/c++/15/bits/memory_resource.h /usr/include/c++/15/cstddef \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
- /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h
+ /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h \
+ /home/typicalw/Code/LogLens/include/parse_error.hpp \
+ /usr/include/c++/15/variant \
+ /usr/include/c++/15/bits/enable_special_members.h \
+ /usr/include/c++/15/bits/monostate.h \
+ /usr/include/c++/15/bits/parse_numbers.h \
+ /usr/include/c++/15/ext/aligned_buffer.h

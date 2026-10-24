@@ -3,6 +3,9 @@
 
 CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: /home/typicalw/Code/LogLens/tests/test_smoke.cpp \
   /home/typicalw/Code/LogLens/include/log_entry.hpp \
+  /home/typicalw/Code/LogLens/include/log_parser.hpp \
+  /home/typicalw/Code/LogLens/include/parse_error.hpp \
+  /home/typicalw/Code/LogLens/include/parse_result.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -17,6 +20,7 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: /home/typicalw/Code/LogLens
   /usr/include/c++/15/bits/concept_check.h \
   /usr/include/c++/15/bits/cpp_type_traits.h \
   /usr/include/c++/15/bits/cxxabi_forced.h \
+  /usr/include/c++/15/bits/enable_special_members.h \
   /usr/include/c++/15/bits/exception.h \
   /usr/include/c++/15/bits/exception_defines.h \
   /usr/include/c++/15/bits/functexcept.h \
@@ -26,9 +30,11 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: /home/typicalw/Code/LogLens
   /usr/include/c++/15/bits/localefwd.h \
   /usr/include/c++/15/bits/memory_resource.h \
   /usr/include/c++/15/bits/memoryfwd.h \
+  /usr/include/c++/15/bits/monostate.h \
   /usr/include/c++/15/bits/move.h \
   /usr/include/c++/15/bits/new_allocator.h \
   /usr/include/c++/15/bits/ostream_insert.h \
+  /usr/include/c++/15/bits/parse_numbers.h \
   /usr/include/c++/15/bits/postypes.h \
   /usr/include/c++/15/bits/predefined_ops.h \
   /usr/include/c++/15/bits/ptr_traits.h \
@@ -43,6 +49,7 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: /home/typicalw/Code/LogLens
   /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15/bits/stl_iterator_base_types.h \
   /usr/include/c++/15/bits/stl_pair.h \
+  /usr/include/c++/15/bits/stl_relops.h \
   /usr/include/c++/15/bits/string_view.tcc \
   /usr/include/c++/15/bits/stringfwd.h \
   /usr/include/c++/15/bits/uses_allocator.h \
@@ -59,6 +66,7 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: /home/typicalw/Code/LogLens
   /usr/include/c++/15/cwchar \
   /usr/include/c++/15/debug/assertions.h \
   /usr/include/c++/15/debug/debug.h \
+  /usr/include/c++/15/ext/aligned_buffer.h \
   /usr/include/c++/15/ext/alloc_traits.h \
   /usr/include/c++/15/ext/numeric_traits.h \
   /usr/include/c++/15/ext/string_conversions.h \
@@ -71,6 +79,8 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o: /home/typicalw/Code/LogLens
   /usr/include/c++/15/string_view \
   /usr/include/c++/15/tuple \
   /usr/include/c++/15/type_traits \
+  /usr/include/c++/15/utility \
+  /usr/include/c++/15/variant \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -167,8 +177,6 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/lib/x86_64-linux-gnu/libc_nonshared.a:
 
-/usr/lib/x86_64-linux-gnu/libc.so.6:
-
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
@@ -185,8 +193,6 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/lib/x86_64-linux-gnu/Scrt1.o:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
@@ -197,21 +203,25 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h:
 
-/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
-
-/usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/15/ext/alloc_traits.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/c++/15/debug/debug.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/c++/15/bits/ptr_traits.h:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/lib64/ld-linux-x86-64.so.2:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/lib/x86_64-linux-gnu/libc.so:
 
@@ -221,15 +231,11 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/uses_allocator_args.h:
 
-/usr/include/c++/15/backward/binders.h:
-
 /usr/include/c++/15/bits/version.h:
 
 /usr/include/c++/15/bits/concept_check.h:
 
 /usr/include/c++/15/cstddef:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/15/bits/stringfwd.h:
 
@@ -238,16 +244,6 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/15/bits/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/c++/15/bits/stl_iterator.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/15/cwchar:
-
-/usr/include/c++/15/bits/stl_function.h:
 
 /usr/include/features.h:
 
@@ -261,15 +257,35 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/debug/assertions.h:
 
-/usr/include/c++/15/bits/string_view.tcc:
-
-/home/typicalw/Code/LogLens/tests/test_smoke.cpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/15/ext/string_conversions.h:
-
 /usr/include/c++/15/bits/move.h:
+
+/usr/include/c++/15/bits/stl_iterator.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/15/ext/aligned_buffer.h:
+
+/usr/include/c++/15/bits/monostate.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/lib/x86_64-linux-gnu/libc.so.6:
+
+/usr/include/c++/15/bits/parse_numbers.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/15/bits/uses_allocator.h:
+
+/usr/include/c++/15/bits/new_allocator.h:
+
+/home/typicalw/Code/LogLens/include/parse_result.hpp:
 
 /usr/include/c++/15/bits/range_access.h:
 
@@ -285,15 +301,11 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
 /usr/include/c++/15/bits/cpp_type_traits.h:
 
 /usr/include/c++/15/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/15/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/15/bits/cxxabi_forced.h:
 
@@ -301,19 +313,19 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/alloc_traits.h:
 
-/usr/include/c++/15/bits/char_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/15/bits/memory_resource.h:
-
 /usr/include/asm-generic/errno.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h:
 
-/usr/include/c++/15/bits/charconv.h:
+/home/typicalw/Code/LogLens/include/log_parser.hpp:
+
+/usr/include/c++/15/bits/postypes.h:
+
+/home/typicalw/Code/LogLens/tests/test_smoke.cpp:
+
+/usr/include/c++/15/bits/string_view.tcc:
 
 /usr/include/stdc-predef.h:
 
@@ -321,29 +333,61 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/15/ext/type_traits.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/c++/15/bits/functional_hash.h:
+/usr/include/c++/15/ext/string_conversions.h:
+
+/usr/include/c++/15/bits/char_traits.h:
+
+/usr/include/c++/15/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/15/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/15/bits/memory_resource.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/15/bits/charconv.h:
+
+/usr/include/c++/15/bits/ptr_traits.h:
+
+/usr/include/c++/15/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/15/bits/predefined_ops.h:
+
+/usr/include/c++/15/bits/exception_defines.h:
 
 /usr/include/c++/15/bits/functexcept.h:
 
-/usr/include/c++/15/bits/postypes.h:
-
-/usr/include/c++/15/bits/hash_bytes.h:
-
-/usr/include/c++/15/bits/localefwd.h:
-
-/usr/include/c++/15/bits/uses_allocator.h:
-
-/usr/include/c++/15/bits/new_allocator.h:
-
-/usr/include/c++/15/bits/stl_pair.h:
-
-/usr/include/c++/15/cctype:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/c++/15/bits/hash_bytes.h:
+
+/usr/include/c++/15/cctype:
+
+/usr/include/c++/15/bits/stl_pair.h:
+
+/usr/include/c++/15/bits/stl_relops.h:
+
+/usr/include/c++/15/bits/localefwd.h:
+
+/usr/include/c++/15/bits/functional_hash.h:
+
+/usr/include/c++/15/ext/type_traits.h:
+
+/usr/include/c++/15/bits/stl_function.h:
+
+/usr/include/c++/15/cwchar:
+
+/usr/include/c++/15/ext/alloc_traits.h:
+
+/home/typicalw/Code/LogLens/include/parse_error.hpp:
 
 /usr/include/c++/15/ext/numeric_traits.h:
 
@@ -373,11 +417,17 @@ loglens_tests: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/usr/include/c++/15/backward/binders.h:
+
+/usr/include/c++/15/utility:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h:
+
+/usr/include/c++/15/variant:
+
 CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o:
 
 /usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/errno.h:
 
@@ -389,19 +439,15 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o:
 
 /usr/include/stdlib.h:
 
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/c++/15/bits/requires_hosted.h:
 
 /usr/include/c++/15/cstdlib:
 
-/usr/include/c++/15/bits/requires_hosted.h:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
 /usr/include/c++/15/concepts:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -427,6 +473,12 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/15/cstdio:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -436,10 +488,6 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o:
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/lib64/ld-linux-x86-64.so.2:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -455,28 +503,10 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/c++/15/bits/exception_defines.h:
-
-/usr/include/c++/15/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/15/cstdio:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:

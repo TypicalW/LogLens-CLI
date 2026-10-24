@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/loglens.dir/link.d"
+  "CMakeFiles/loglens.dir/src/log_parser.cpp.o"
+  "CMakeFiles/loglens.dir/src/log_parser.cpp.o.d"
   "CMakeFiles/loglens.dir/src/main.cpp.o"
   "CMakeFiles/loglens.dir/src/main.cpp.o.d"
   "loglens"

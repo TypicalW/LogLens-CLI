@@ -1,18 +1,18 @@
-Start testing: Oct 24 16:22 IST
+Start testing: Oct 24 16:58 IST
 ----------------------------------------------------------
 1/1 Testing: LogLensSmokeTest
 1/1 Test: LogLensSmokeTest
 Command: "/home/typicalw/Code/LogLens/build/loglens_tests"
 Directory: /home/typicalw/Code/LogLens/build
-"LogLensSmokeTest" start time: Oct 24 16:22 IST
+"LogLensSmokeTest" start time: Oct 24 16:58 IST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"LogLensSmokeTest" end time: Oct 24 16:22 IST
+"LogLensSmokeTest" end time: Oct 24 16:58 IST
 "LogLensSmokeTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 24 16:22 IST
+End testing: Oct 24 16:58 IST

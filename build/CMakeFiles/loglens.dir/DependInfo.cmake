@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/typicalw/Code/LogLens/src/log_parser.cpp" "CMakeFiles/loglens.dir/src/log_parser.cpp.o" "gcc" "CMakeFiles/loglens.dir/src/log_parser.cpp.o.d"
   "/home/typicalw/Code/LogLens/src/main.cpp" "CMakeFiles/loglens.dir/src/main.cpp.o" "gcc" "CMakeFiles/loglens.dir/src/main.cpp.o.d"
   "" "loglens" "gcc" "CMakeFiles/loglens.dir/link.d"
   )
