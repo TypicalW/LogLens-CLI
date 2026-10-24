@@ -179,6 +179,33 @@ src/log_parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/src/log_parser.cpp.s
 .PHONY : src/log_parser.cpp.s
 
+src/log_reader.o: src/log_reader.cpp.o
+.PHONY : src/log_reader.o
+
+# target to build an object file
+src/log_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_reader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/src/log_reader.cpp.o
+.PHONY : src/log_reader.cpp.o
+
+src/log_reader.i: src/log_reader.cpp.i
+.PHONY : src/log_reader.i
+
+# target to preprocess a source file
+src/log_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_reader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/src/log_reader.cpp.i
+.PHONY : src/log_reader.cpp.i
+
+src/log_reader.s: src/log_reader.cpp.s
+.PHONY : src/log_reader.s
+
+# target to generate assembly for a file
+src/log_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_reader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/src/log_reader.cpp.s
+.PHONY : src/log_reader.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -241,6 +268,9 @@ help:
 	@echo "... src/log_parser.o"
 	@echo "... src/log_parser.i"
 	@echo "... src/log_parser.s"
+	@echo "... src/log_reader.o"
+	@echo "... src/log_reader.i"
+	@echo "... src/log_reader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
