@@ -13,7 +13,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(loglens
     src/main.cpp
 )
-target_include_directories(loglens PRIVATE include
+target_include_directories(loglens PRIVATE 
     ${CMAKE_CURRENT_SOURCE_DIR}/include    
 )
 
