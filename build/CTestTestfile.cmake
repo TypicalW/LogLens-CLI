@@ -5,4 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(LogLensSmokeTest "/home/typicalw/Code/LogLens/build/loglens_tests")
-set_tests_properties(LogLensSmokeTest PROPERTIES  _BACKTRACE_TRIPLES "/home/typicalw/Code/LogLens/CMakeLists.txt;35;add_test;/home/typicalw/Code/LogLens/CMakeLists.txt;0;")
+set_tests_properties(LogLensSmokeTest PROPERTIES  _BACKTRACE_TRIPLES "/home/typicalw/Code/LogLens/CMakeLists.txt;37;add_test;/home/typicalw/Code/LogLens/CMakeLists.txt;0;")

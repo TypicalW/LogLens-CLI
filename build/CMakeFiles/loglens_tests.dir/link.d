@@ -5,6 +5,7 @@ loglens_tests: \
   CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o \
   CMakeFiles/loglens_tests.dir/src/log_parser.cpp.o \
   CMakeFiles/loglens_tests.dir/src/log_reader.cpp.o \
+  CMakeFiles/loglens_tests.dir/src/log_analyzer.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -45,6 +46,8 @@ CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o:
 CMakeFiles/loglens_tests.dir/src/log_parser.cpp.o:
 
 CMakeFiles/loglens_tests.dir/src/log_reader.cpp.o:
+
+CMakeFiles/loglens_tests.dir/src/log_analyzer.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 
