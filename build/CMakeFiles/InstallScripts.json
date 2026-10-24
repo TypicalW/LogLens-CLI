@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/typicalw/Code/LogLens/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

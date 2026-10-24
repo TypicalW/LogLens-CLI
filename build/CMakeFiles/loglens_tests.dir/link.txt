@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/loglens_tests.dir/link.d CMakeFiles/loglens_tests.dir/tests/test_smoke.cpp.o -o loglens_tests
