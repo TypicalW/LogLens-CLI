@@ -1,4 +1,4 @@
-LogLensSmokeTest 8 0.000341467
-LogLensAnalyzerTest 2 0.00140241
-LogLensFilterTest 1 0.00198154
+LogLensSmokeTest 9 0.0003286
+LogLensAnalyzerTest 3 0.000831586
+LogLensFilterTest 2 0.000946097
 ---

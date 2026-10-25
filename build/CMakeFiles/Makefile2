@@ -94,12 +94,12 @@ clean: CMakeFiles/loglens_filter_tests.dir/clean
 CMakeFiles/loglens.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target loglens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target loglens"
 .PHONY : CMakeFiles/loglens.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/loglens.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/typicalw/Code/LogLens/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/typicalw/Code/LogLens/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/loglens.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/typicalw/Code/LogLens/build/CMakeFiles 0
 .PHONY : CMakeFiles/loglens.dir/rule
@@ -111,7 +111,7 @@ loglens: CMakeFiles/loglens.dir/rule
 # codegen rule for target.
 CMakeFiles/loglens.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target loglens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target loglens"
 .PHONY : CMakeFiles/loglens.dir/codegen
 
 # clean rule for target.
@@ -126,7 +126,7 @@ CMakeFiles/loglens.dir/clean:
 CMakeFiles/loglens_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=15,16,17 "Built target loglens_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=16,17,18 "Built target loglens_tests"
 .PHONY : CMakeFiles/loglens_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -143,7 +143,7 @@ loglens_tests: CMakeFiles/loglens_tests.dir/rule
 # codegen rule for target.
 CMakeFiles/loglens_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_tests.dir/build.make CMakeFiles/loglens_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=15,16,17 "Finished codegen for target loglens_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=16,17,18 "Finished codegen for target loglens_tests"
 .PHONY : CMakeFiles/loglens_tests.dir/codegen
 
 # clean rule for target.
@@ -158,7 +158,7 @@ CMakeFiles/loglens_tests.dir/clean:
 CMakeFiles/loglens_analyzer_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_analyzer_tests.dir/build.make CMakeFiles/loglens_analyzer_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_analyzer_tests.dir/build.make CMakeFiles/loglens_analyzer_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=7,8,9,10,11 "Built target loglens_analyzer_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=8,9,10,11,12 "Built target loglens_analyzer_tests"
 .PHONY : CMakeFiles/loglens_analyzer_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +175,7 @@ loglens_analyzer_tests: CMakeFiles/loglens_analyzer_tests.dir/rule
 # codegen rule for target.
 CMakeFiles/loglens_analyzer_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_analyzer_tests.dir/build.make CMakeFiles/loglens_analyzer_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=7,8,9,10,11 "Finished codegen for target loglens_analyzer_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=8,9,10,11,12 "Finished codegen for target loglens_analyzer_tests"
 .PHONY : CMakeFiles/loglens_analyzer_tests.dir/codegen
 
 # clean rule for target.
@@ -190,7 +190,7 @@ CMakeFiles/loglens_analyzer_tests.dir/clean:
 CMakeFiles/loglens_filter_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=12,13,14 "Built target loglens_filter_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=13,14,15 "Built target loglens_filter_tests"
 .PHONY : CMakeFiles/loglens_filter_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -207,7 +207,7 @@ loglens_filter_tests: CMakeFiles/loglens_filter_tests.dir/rule
 # codegen rule for target.
 CMakeFiles/loglens_filter_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=12,13,14 "Finished codegen for target loglens_filter_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/typicalw/Code/LogLens/build/CMakeFiles --progress-num=13,14,15 "Finished codegen for target loglens_filter_tests"
 .PHONY : CMakeFiles/loglens_filter_tests.dir/codegen
 
 # clean rule for target.

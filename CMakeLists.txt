@@ -12,6 +12,7 @@ add_executable(loglens
     src/log_reader.cpp
     src/log_analyzer.cpp
     src/log_filter.cpp
+    src/cli_parser.cpp
 )
 
 target_include_directories(loglens PRIVATE

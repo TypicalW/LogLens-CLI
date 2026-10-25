@@ -178,6 +178,30 @@ loglens_filter_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/build
 .PHONY : loglens_filter_tests/fast
 
+src/cli_parser.o: src/cli_parser.cpp.o
+.PHONY : src/cli_parser.o
+
+# target to build an object file
+src/cli_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/cli_parser.cpp.o
+.PHONY : src/cli_parser.cpp.o
+
+src/cli_parser.i: src/cli_parser.cpp.i
+.PHONY : src/cli_parser.i
+
+# target to preprocess a source file
+src/cli_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/cli_parser.cpp.i
+.PHONY : src/cli_parser.cpp.i
+
+src/cli_parser.s: src/cli_parser.cpp.s
+.PHONY : src/cli_parser.s
+
+# target to generate assembly for a file
+src/cli_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/cli_parser.cpp.s
+.PHONY : src/cli_parser.cpp.s
+
 src/log_analyzer.o: src/log_analyzer.cpp.o
 .PHONY : src/log_analyzer.o
 
@@ -398,6 +422,9 @@ help:
 	@echo "... loglens_analyzer_tests"
 	@echo "... loglens_filter_tests"
 	@echo "... loglens_tests"
+	@echo "... src/cli_parser.o"
+	@echo "... src/cli_parser.i"
+	@echo "... src/cli_parser.s"
 	@echo "... src/log_analyzer.o"
 	@echo "... src/log_analyzer.i"
 	@echo "... src/log_analyzer.s"
