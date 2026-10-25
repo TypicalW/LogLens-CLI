@@ -165,6 +165,19 @@ loglens_analyzer_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_analyzer_tests.dir/build.make CMakeFiles/loglens_analyzer_tests.dir/build
 .PHONY : loglens_analyzer_tests/fast
 
+#=============================================================================
+# Target rules for targets named loglens_filter_tests
+
+# Build rule for target.
+loglens_filter_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 loglens_filter_tests
+.PHONY : loglens_filter_tests
+
+# fast build rule for target.
+loglens_filter_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/build
+.PHONY : loglens_filter_tests/fast
+
 src/log_analyzer.o: src/log_analyzer.cpp.o
 .PHONY : src/log_analyzer.o
 
@@ -191,6 +204,33 @@ src/log_analyzer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_analyzer.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_analyzer_tests.dir/build.make CMakeFiles/loglens_analyzer_tests.dir/src/log_analyzer.cpp.s
 .PHONY : src/log_analyzer.cpp.s
+
+src/log_filter.o: src/log_filter.cpp.o
+.PHONY : src/log_filter.o
+
+# target to build an object file
+src/log_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_filter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/src/log_filter.cpp.o
+.PHONY : src/log_filter.cpp.o
+
+src/log_filter.i: src/log_filter.cpp.i
+.PHONY : src/log_filter.i
+
+# target to preprocess a source file
+src/log_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_filter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/src/log_filter.cpp.i
+.PHONY : src/log_filter.cpp.i
+
+src/log_filter.s: src/log_filter.cpp.s
+.PHONY : src/log_filter.s
+
+# target to generate assembly for a file
+src/log_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens.dir/build.make CMakeFiles/loglens.dir/src/log_filter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/src/log_filter.cpp.s
+.PHONY : src/log_filter.cpp.s
 
 src/log_parser.o: src/log_parser.cpp.o
 .PHONY : src/log_parser.o
@@ -297,6 +337,30 @@ tests/test_analyzer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_analyzer_tests.dir/build.make CMakeFiles/loglens_analyzer_tests.dir/tests/test_analyzer.cpp.s
 .PHONY : tests/test_analyzer.cpp.s
 
+tests/test_filter.o: tests/test_filter.cpp.o
+.PHONY : tests/test_filter.o
+
+# target to build an object file
+tests/test_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/tests/test_filter.cpp.o
+.PHONY : tests/test_filter.cpp.o
+
+tests/test_filter.i: tests/test_filter.cpp.i
+.PHONY : tests/test_filter.i
+
+# target to preprocess a source file
+tests/test_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/tests/test_filter.cpp.i
+.PHONY : tests/test_filter.cpp.i
+
+tests/test_filter.s: tests/test_filter.cpp.s
+.PHONY : tests/test_filter.s
+
+# target to generate assembly for a file
+tests/test_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/loglens_filter_tests.dir/build.make CMakeFiles/loglens_filter_tests.dir/tests/test_filter.cpp.s
+.PHONY : tests/test_filter.cpp.s
+
 tests/test_smoke.o: tests/test_smoke.cpp.o
 .PHONY : tests/test_smoke.o
 
@@ -332,10 +396,14 @@ help:
 	@echo "... test"
 	@echo "... loglens"
 	@echo "... loglens_analyzer_tests"
+	@echo "... loglens_filter_tests"
 	@echo "... loglens_tests"
 	@echo "... src/log_analyzer.o"
 	@echo "... src/log_analyzer.i"
 	@echo "... src/log_analyzer.s"
+	@echo "... src/log_filter.o"
+	@echo "... src/log_filter.i"
+	@echo "... src/log_filter.s"
 	@echo "... src/log_parser.o"
 	@echo "... src/log_parser.i"
 	@echo "... src/log_parser.s"
@@ -348,6 +416,9 @@ help:
 	@echo "... tests/test_analyzer.o"
 	@echo "... tests/test_analyzer.i"
 	@echo "... tests/test_analyzer.s"
+	@echo "... tests/test_filter.o"
+	@echo "... tests/test_filter.i"
+	@echo "... tests/test_filter.s"
 	@echo "... tests/test_smoke.o"
 	@echo "... tests/test_smoke.i"
 	@echo "... tests/test_smoke.s"

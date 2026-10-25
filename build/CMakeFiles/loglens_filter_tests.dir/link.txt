@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/loglens_filter_tests.dir/link.d CMakeFiles/loglens_filter_tests.dir/tests/test_filter.cpp.o CMakeFiles/loglens_filter_tests.dir/src/log_filter.cpp.o -o loglens_filter_tests

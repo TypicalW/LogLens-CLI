@@ -1,33 +1,48 @@
-Start testing: Oct 24 19:39 IST
+Start testing: Oct 25 09:02 IST
 ----------------------------------------------------------
-1/2 Testing: LogLensSmokeTest
-1/2 Test: LogLensSmokeTest
+1/3 Testing: LogLensSmokeTest
+1/3 Test: LogLensSmokeTest
 Command: "/home/typicalw/Code/LogLens/build/loglens_tests"
 Directory: /home/typicalw/Code/LogLens/build
-"LogLensSmokeTest" start time: Oct 24 19:39 IST
+"LogLensSmokeTest" start time: Oct 25 09:02 IST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"LogLensSmokeTest" end time: Oct 24 19:39 IST
+"LogLensSmokeTest" end time: Oct 25 09:02 IST
 "LogLensSmokeTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/2 Testing: LogLensAnalyzerTest
-2/2 Test: LogLensAnalyzerTest
+2/3 Testing: LogLensAnalyzerTest
+2/3 Test: LogLensAnalyzerTest
 Command: "/home/typicalw/Code/LogLens/build/loglens_analyzer_tests"
 Directory: /home/typicalw/Code/LogLens/build
-"LogLensAnalyzerTest" start time: Oct 24 19:39 IST
+"LogLensAnalyzerTest" start time: Oct 25 09:02 IST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"LogLensAnalyzerTest" end time: Oct 24 19:39 IST
+"LogLensAnalyzerTest" end time: Oct 25 09:02 IST
 "LogLensAnalyzerTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 24 19:39 IST
+3/3 Testing: LogLensFilterTest
+3/3 Test: LogLensFilterTest
+Command: "/home/typicalw/Code/LogLens/build/loglens_filter_tests"
+Directory: /home/typicalw/Code/LogLens/build
+"LogLensFilterTest" start time: Oct 25 09:02 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LogLensFilterTest" end time: Oct 25 09:02 IST
+"LogLensFilterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 25 09:02 IST

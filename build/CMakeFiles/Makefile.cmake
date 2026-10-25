@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/loglens.dir/DependInfo.cmake"
   "CMakeFiles/loglens_tests.dir/DependInfo.cmake"
   "CMakeFiles/loglens_analyzer_tests.dir/DependInfo.cmake"
+  "CMakeFiles/loglens_filter_tests.dir/DependInfo.cmake"
   )
