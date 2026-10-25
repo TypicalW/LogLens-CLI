@@ -239,6 +239,3 @@ LogLens currently targets files that follow its defined log format. It is not a 
 
 Potential extensions include configurable timestamp formats, date-range filtering, additional output formats, and integration with continuous integration pipelines.
 
-## License
-
-Choose a license before publishing the repository. If you intend others to use, modify, and distribute the code, consider the MIT License or another license appropriate to your goals.
