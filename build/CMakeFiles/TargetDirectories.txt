@@ -1,5 +1,6 @@
 /home/typicalw/Code/LogLens/build/CMakeFiles/loglens.dir
 /home/typicalw/Code/LogLens/build/CMakeFiles/loglens_tests.dir
+/home/typicalw/Code/LogLens/build/CMakeFiles/loglens_analyzer_tests.dir
 /home/typicalw/Code/LogLens/build/CMakeFiles/test.dir
 /home/typicalw/Code/LogLens/build/CMakeFiles/edit_cache.dir
 /home/typicalw/Code/LogLens/build/CMakeFiles/rebuild_cache.dir

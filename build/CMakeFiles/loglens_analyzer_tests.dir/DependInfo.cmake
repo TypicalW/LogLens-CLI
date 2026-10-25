@@ -1,0 +1,27 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/typicalw/Code/LogLens/src/log_analyzer.cpp" "CMakeFiles/loglens_analyzer_tests.dir/src/log_analyzer.cpp.o" "gcc" "CMakeFiles/loglens_analyzer_tests.dir/src/log_analyzer.cpp.o.d"
+  "/home/typicalw/Code/LogLens/src/log_parser.cpp" "CMakeFiles/loglens_analyzer_tests.dir/src/log_parser.cpp.o" "gcc" "CMakeFiles/loglens_analyzer_tests.dir/src/log_parser.cpp.o.d"
+  "/home/typicalw/Code/LogLens/src/log_reader.cpp" "CMakeFiles/loglens_analyzer_tests.dir/src/log_reader.cpp.o" "gcc" "CMakeFiles/loglens_analyzer_tests.dir/src/log_reader.cpp.o.d"
+  "/home/typicalw/Code/LogLens/tests/test_analyzer.cpp" "CMakeFiles/loglens_analyzer_tests.dir/tests/test_analyzer.cpp.o" "gcc" "CMakeFiles/loglens_analyzer_tests.dir/tests/test_analyzer.cpp.o.d"
+  "" "loglens_analyzer_tests" "gcc" "CMakeFiles/loglens_analyzer_tests.dir/link.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
